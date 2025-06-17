@@ -6,6 +6,9 @@ function loadData(callback) {
 }
 
 console.log("Loading data...");
+
 loadData(() => {
   console.log("Now displaying the data");
 });
+
+// loadData(loadData);--> Recurrsive error occurs
