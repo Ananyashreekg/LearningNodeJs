@@ -1,8 +1,8 @@
 function delayMessage() {
   return new Promise(resolve => {
     setTimeout(() => {
-      resolve("Waited 2 seconds");
-    }, 2000);
+      resolve("Waited 3 seconds");
+    }, 3000);
   });
 }
 
